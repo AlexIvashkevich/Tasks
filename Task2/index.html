@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test2</title>
+</head>
+<body>
+    <div class="form-wrapper">
+        <form id="order-form">
+          <fieldset>
+              <legend>Select Size</legend>
+                <input type="radio" name="size" value="S">
+                <label>S</label>
+                <input type="radio" name="size" value="M">
+                <label>M</label>
+                <input type="radio" name="size" value="L">
+                <label>L</label>
+          </fieldset>
+          <fieldset id="colors">
+              <legend>Choose A Color</legend>
+                <input type="checkbox" name="color-one" value="1">
+                <label>1</label>
+                <input type="checkbox" name="color-two" value="2">
+                <label>2</label>
+                <input type="checkbox" name="color-three" value="3">
+                <label>3</label>
+                <input type="checkbox" name="color-four" value="4">
+                <label>4</label>
+                <input type="checkbox" name="color-five" value="5">
+                <label>5</label>
+          </fieldset>
+          <fieldset>
+              <legend>Select Manufacturer</legend>
+                <select multiple name="manufacturer">
+                    <option value="aaa">aaa</option>
+                    <option value="b-c">b&c</option>
+                    <option value="ddd">ddd</option>
+                    <option value="eee">eee</option>
+                </select>  
+          </fieldset>
+          <fieldset>
+              <legend>Sale</legend>
+                <input type="checkbox" value="1" name="sales">
+                <label for="">1</label>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
